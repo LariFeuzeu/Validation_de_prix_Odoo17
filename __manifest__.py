@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "its_price_validation",
+    'name': "price_validation",
 
     'summary': "Validation du prix dans le systeme",
 
@@ -8,7 +8,7 @@
      Il permet la validation du prix entrer par l'utilisateur dans le systeme 
                               """,
 
-    'author': "ITS, LARI FEUZEU",
+    'author': "LARI FEUZEU",
     'website': "its-nh.com",
 
     # Categories can be used to filter modules in modules listing
