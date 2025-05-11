@@ -1,0 +1,23 @@
+<odoo>
+    <record id="View_Sale_Order_inherit" model="ir.ui.view">
+        <field name="name">sale.oder.line.inherit</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//header" position="inside">
+
+                <field name="need_price_validation" invisible="1"/>
+
+                <!-- Bouton visible si une ligne a un prix modifié -->
+                <button name="action_validate_price"
+                        string="Valider le prix"
+                        type="object"
+                        class="btn btn-primary"
+                        invisible="not need_price_validation"
+                        groups="its_price_validation.btn_validated_price"/>
+
+            </xpath>
+        </field>
+    </record>
+</odoo>

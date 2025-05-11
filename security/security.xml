@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <!-- Définition du groupe  -->
+        <record id="btn_validated_price" model="res.groups">
+            <field name="name">Validated Price</field>
+        </record>
+
+    </data>
+</odoo>
