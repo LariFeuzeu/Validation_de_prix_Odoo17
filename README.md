@@ -14,8 +14,4 @@ Lorsqu'un utilisateur modifie le prix d'un article dans un devis :
 
 Ce module renforce la politique de tarification de l'entreprise en ajoutant un contrôle sur les modifications de prix dans les devis.
 
-## Installation
 
-1. Cloner le dépôt dans le dossier `addons` d'Odoo :
-   ```bash
-   git clone https://github.com/LariFeuzeu/Validation_de_prix_Odoo17.git
